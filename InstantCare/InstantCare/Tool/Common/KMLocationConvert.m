@@ -55,7 +55,7 @@ static double RANGE_LAT_MAX = 55.8271;
 static double RANGE_LAT_MIN = 0.8293;
 // jzA = 6378245.0, 1/f = 298.3
 // b = a * (1 - f)
-// ee = (a^2 - b^2) / a^2;
+// ee = (a^2 - b^2) / a^2;i
 static double a = 6378245.0;
 static double ee = 0.00669342162296594323;
 
