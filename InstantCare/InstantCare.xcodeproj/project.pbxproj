@@ -3636,8 +3636,8 @@
 				TargetAttributes = {
 					98F171E21E090D6D001BE71E = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = 4D8A875794;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = FJXB8SL24R;
+						ProvisioningStyle = Manual;
 					};
 					98F171FB1E090D6D001BE71E = {
 						CreatedOnToolsVersion = 8.2;
@@ -4344,18 +4344,18 @@
 				ALTERNATE_GROUP = "$(INSTALL_GROUP)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 4D8A875794;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = FJXB8SL24R;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/InstantCare-Prefix.pch";
 				INFOPLIST_FILE = InstantCare/Info.plist;
 				INSTALL_GROUP = "$(INSTALL_GROUP)";
 				INSTALL_OWNER = "$(INSTALL_OWNER)";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.KMHealthService.InstantCare;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KMHealthService.App.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "cb17a505-5922-4ba4-82bc-f1fdc116f551";
+				PROVISIONING_PROFILE_SPECIFIER = "XC iOS: com.KMHealthService.App.test";
 			};
 			name = Debug;
 		};
@@ -4366,18 +4366,18 @@
 				ALTERNATE_GROUP = "$(INSTALL_GROUP)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 4D8A875794;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = FJXB8SL24R;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/InstantCare-Prefix.pch";
 				INFOPLIST_FILE = InstantCare/Info.plist;
 				INSTALL_GROUP = "$(INSTALL_GROUP)";
 				INSTALL_OWNER = "$(INSTALL_OWNER)";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.KMHealthService.InstantCare;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KMHealthService.App.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "cb17a505-5922-4ba4-82bc-f1fdc116f551";
+				PROVISIONING_PROFILE_SPECIFIER = "XC iOS: com.KMHealthService.App.test";
 			};
 			name = Release;
 		};
