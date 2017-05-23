@@ -564,7 +564,10 @@
 //    UINavigationController *navVC = [[UINavigationController alloc] initWithRootViewController:vc];
 //    [self presentViewController:navVC animated:NO completion:nil];
     
-    NSString *string = KMYanShi;
+    
+#if DEBUG
+    //默认环境是生产
+    NSString *string = KMShengChan;
     if (HostFlag == 0) {//生产
         
         string = KMShengChan;
@@ -575,14 +578,21 @@
     else if (HostFlag == 2){//测试
         string = KMCeShi;
     }
-
+    
     else if (HostFlag == 3){//外网
         string = @"";
     }
     else if (HostFlag == 4){//灰度
         string = @"";
     }
+    NSLog(@"string = %@",string);
 
+
+#else
+    
+    NSString *string = KMShengChan;
+    
+#endif
     switch (sender.tag) {
         case 100:           // 健康档案
         {

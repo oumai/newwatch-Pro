@@ -177,6 +177,7 @@ static dispatch_source_t _timer;
     //添加button是为了切换域名
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     button.titleLabel.textAlignment = NSTextAlignmentCenter;
+    [button setBackgroundColor:[UIColor lightGrayColor]];
     [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     button.titleLabel.font = [UIFont systemFontOfSize:16];
     [button setTitle:kLoadStringWithKey(@"CFBundleDisplayName") forState:UIControlStateNormal];
@@ -195,7 +196,6 @@ static dispatch_source_t _timer;
     
     
     UILabel * title = [[UILabel alloc] init];
-    title.backgroundColor = [UIColor lightGrayColor];
     [self.view addSubview:title];
     [title mas_makeConstraints:^(MASConstraintMaker *make)
      {
@@ -210,7 +210,6 @@ static dispatch_source_t _timer;
     title.text = kLoadStringWithKey(@"CFBundleDisplayName");
     
 #endif
-    
     
    
     
