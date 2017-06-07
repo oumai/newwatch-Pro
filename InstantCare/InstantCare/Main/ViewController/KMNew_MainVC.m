@@ -177,6 +177,7 @@
     
     
 -(void)showAlert:(NSString *)title message:(NSString *)msg{
+    
     self.callAction = [[CustomIOSAlertView alloc] init];
     KMCommonAlertView *view = [[KMCommonAlertView alloc] initWithFrame:CGRectMake(0, 0,300, 200)];
     view.titleLabel.text = title;
@@ -348,7 +349,6 @@
 }
 
 #pragma mark - 推送相关
-
 - (void)configRemoteNotification
 {
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent animated:NO];
