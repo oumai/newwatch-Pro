@@ -27,7 +27,7 @@
 }
 
 -(void)initView{
-    for (int i = 0; i <=4 ; i++) {
+    for (int i = 0; i <=5 ; i++) {
         UIButton *button = [[UIButton alloc]init];
         button.tag = i+100;
         [button setTitle:[self setButtonTitle:button] forState:UIControlStateNormal];
@@ -53,12 +53,15 @@
         case 2:
             string = @"测试";
             break;
-//        case 3:
-//            string = @"外网";
-//            break;
-//        case 4:
-//            string = @"灰度";
-//            break;
+        case 3:
+            string = @"Azure";
+            break;
+        case 4:
+            string = @"外网";
+            break;
+        case 5:
+            string = @"灰度";
+            break;
         default:
             break;
     }

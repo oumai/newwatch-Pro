@@ -578,13 +578,17 @@
     else if (HostFlag == 2){//测试
         string = KMCeShi;
     }
+    else if (HostFlag == 3){//微软云
+        string = KMAZure;
+    }
     
-    else if (HostFlag == 3){//外网
+    else if (HostFlag == 4){//外网
         string = @"";
     }
-    else if (HostFlag == 4){//灰度
+    else if (HostFlag == 5){//灰度
         string = @"";
     }
+   
     NSLog(@"string = %@",string);
 
 

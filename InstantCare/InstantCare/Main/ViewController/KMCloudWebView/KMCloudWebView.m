@@ -7,7 +7,7 @@
 //
 
 #import "KMCloudWebView.h"
-
+#import <UIKit/UIView.h>
 @interface KMCloudWebView ()<UIWebViewDelegate>
 
 @end
@@ -43,7 +43,8 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
     [self setupUI];
-    
+    [_webView reload];
+
 }
 
 - (void)setupUI {

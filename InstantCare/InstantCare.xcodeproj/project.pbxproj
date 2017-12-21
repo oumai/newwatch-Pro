@@ -3636,7 +3636,7 @@
 				TargetAttributes = {
 					98F171E21E090D6D001BE71E = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = 4D8A875794;
+						DevelopmentTeam = XYBK7B7U6R;
 						ProvisioningStyle = Automatic;
 					};
 					98F171FB1E090D6D001BE71E = {
@@ -4345,14 +4345,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 4D8A875794;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XYBK7B7U6R;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/InstantCare-Prefix.pch";
 				INFOPLIST_FILE = InstantCare/Info.plist;
 				INSTALL_GROUP = "$(INSTALL_GROUP)";
 				INSTALL_OWNER = "$(INSTALL_OWNER)";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.KMHealthService.InstantCare;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KMHealthService.App.testOM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -4368,14 +4369,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 4D8A875794;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XYBK7B7U6R;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/InstantCare-Prefix.pch";
 				INFOPLIST_FILE = InstantCare/Info.plist;
 				INSTALL_GROUP = "$(INSTALL_GROUP)";
 				INSTALL_OWNER = "$(INSTALL_OWNER)";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.KMHealthService.InstantCare;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KMHealthService.App.testOM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
