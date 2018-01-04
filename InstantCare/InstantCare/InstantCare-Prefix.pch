@@ -55,6 +55,7 @@
 #define   KMShengChan  @"http://djymbgl.kmhealthcloud.com:9001"
 #define   KMCeShi      @"http://10.2.29.83:6033"
 #define   KMAZure      @"http://hc003tn-appapi.chinacloudsites.cn"
+#define   KMPreAZure   @"http://hc003pe-appapi.chinacloudsites.cn"
 //120.25.225.5:8090
 
 #if defined(kApplicationMLVersion)

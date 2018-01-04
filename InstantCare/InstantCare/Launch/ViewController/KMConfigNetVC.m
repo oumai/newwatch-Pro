@@ -27,7 +27,7 @@
 }
 
 -(void)initView{
-    for (int i = 0; i <=5 ; i++) {
+    for (int i = 0; i <=6 ; i++) {
         UIButton *button = [[UIButton alloc]init];
         button.tag = i+100;
         [button setTitle:[self setButtonTitle:button] forState:UIControlStateNormal];
@@ -57,9 +57,12 @@
             string = @"Azure";
             break;
         case 4:
-            string = @"外网";
+            string = @"Azure预发布";
             break;
         case 5:
+            string = @"外网";
+            break;
+        case 6:
             string = @"灰度";
             break;
         default:
@@ -71,7 +74,7 @@
 }
 
 -(void)setButtonBackColor:(UIButton *)sender{
-    for (int i = 0; i <=4 ; i++) {
+    for (int i = 0; i <=6 ; i++) {
         UIButton *button = [self.view viewWithTag:i+100];
         [button setBackgroundColor:[UIColor lightGrayColor]];
     }

@@ -581,11 +581,14 @@
     else if (HostFlag == 3){//微软云
         string = KMAZure;
     }
+    else if (HostFlag == 4){//微软云预发布
+        string = KMPreAZure;
+    }
     
-    else if (HostFlag == 4){//外网
+    else if (HostFlag == 5){//外网
         string = @"";
     }
-    else if (HostFlag == 5){//灰度
+    else if (HostFlag == 6){//灰度
         string = @"";
     }
    
